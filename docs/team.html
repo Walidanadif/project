@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./team.css">
+    <link rel="stylesheet" href="copy.css">
+</head>
+
+<body>
+
+    <div id="headere">
+        <div class="headere containere">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero">
+                        <h1><span>D</span>eco <span>h</span>ouse</h1>
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li><a href="./index.html" data-after="Acceuil">Acceuil</a></li>
+                        <li><a href="./les_produits.html" data-after="Produits">Produits</a></li>
+                        <li><a href="./cart.html" data-after="Cart">Cart</a></li>
+                        <li><a href="./team.html" data-after="Service">Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="carousel">
+        <a href="#" class="carousel-item">
+            <div class="equipe1">
+                <div class="groupe">
+                    <img src="./image/téléchargement (1).jpeg">
+                </div>
+                <h2>Equipe d'eclairage</h2>
+                <p>Ils se specialisent dans la conception et l'installation de solutions d'eclairage pour mettre en
+                    valeur ton mobilier et creer une ambiance chaleureuse.</p>
+
+            </div>
+        </a>
+        <a href="#" class="carousel-item">
+            <div class="equipe1">
+                <div class="groupe">
+                    <img src="./image/equipededsigneinterieure.jpeg">
+                </div>
+                <h2>Equipe de design d'interieur</h2>
+                <p>Ils peuvent t'aider a creer un concept global pour ton espace en choisissant les couleurs, les
+                    materiaux et en planifiant l'agencement.</p>
+            </div>
+        </a>
+        <a href="#" class="carousel-item">
+            <div class="equipe1">
+                <div class="groupe">
+                    <img src="./image/téléchargement.jpeg">
+                </div>
+                <h2>Equipe de menuiserie</h2>
+                <p>Ils peuvent creer des meubles sur mesure pour repondre a tes besoins specifiques et ajouterr une
+                    touche unique a ton espace.</p>
+            </div>
+        </a>
+        <a href="#" class="carousel-item">
+            <div class="equipe1">
+                <div class="groupe">
+                    <img src="./image/téléchargement (2).jpeg">
+                </div>
+                <h2>Equipe de revetements</h2>
+                <p>Ils peuvent t'aider a choisir et a installer les revetements de sol et les revetements muraux qui
+                    correspondent a tes gouts et a tes besoins.</p>
+            </div>
+        </a>
+    </div>
+
+
+    <section>
+        <div class="container">
+            <div class="titre">
+                <h1>Nos equipes</h1>
+                <h5>A votre services</h5>
+            </div>
+            <div class="main">
+                <div class="right">
+                    <h4>Skills</h4>
+                    <ul>
+                        <li>Creativite</li>
+                        <li>souci du details</li>
+                        <li>Sensibilite budgetaire</li>
+                        <li>Gestion du temps</li>
+                        <li>Sensibilite au style et aux tendances</li>
+                    </ul>
+                    <h4>Contact</h4>
+                    <p>&#128222;:06 11 22 33 44</p>
+                    <p>&#128386;: DecoHouse@gmail.com</p>
+                    <p>&#127968;: Rabat, Rue X Appt 180 Etage 02</p>
+                </div>
+                <div class="right">
+                    <h4>Work Experience</h4>
+                    <p class="Company">Deco House Company</p>
+                    <p><strong>Position:</strong>Decoration et Bricolage</p>
+                    <p><strong>Duration:</strong> 2018-2024</p>
+                    <ul>
+                        <li>Responsablite du conception globale de l'espace interieure.</li>
+                        <li>La planification et la conception de l'angencement de l'espace.</li>
+                        <li>La selection et de l'installation des revetements muraux, tels que la peinture, le papier
+                            peint ect.</li>
+                    </ul> <br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.carousel').carousel({
+                padding: 200
+            });
+            autoplay();
+            function autoplay() {
+                $('.carousel').carousel('next');
+                setTimeout(autoplay, 4500);
+            }
+        });
+    </script>
+</body>
+
+</html>

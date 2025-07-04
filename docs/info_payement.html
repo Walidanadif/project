@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./info_payement.css">
+    <link rel="stylesheet" href="copy.css">
+</head>
+
+<body>
+
+    <div id="headere">
+        <div class="headere containere">
+          <div class="nav-bar">
+            <div class="brand">
+              <a href="#hero">
+                <h1><span>D</span>eco <span>h</span>ouse</h1>
+              </a>
+            </div>
+            <div class="nav-list">
+              <div class="hamburger">
+                <div class="bar"></div>
+              </div>
+              <ul>
+                <li><a href="./index.html" data-after="Acceuil">Acceuil</a></li>
+                <li><a href="./les_produits.html" data-after="Produits">Produits</a></li>
+                <li><a href="./cart.html" data-after="Cart">Cart</a></li>
+                <li><a href="./team.html" data-after="Service">Service</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <section class="container">
+        <form >
+            <div class="parent card p-5">
+                <legend>Information personnelles:</legend>
+                <div class="nomcomplet">
+                    <div class="coordonne">
+                        <div class="input1 form__div">
+                            <input type="text" class="form-control" placeholder=" ">
+                            <label for="" class="form__label">PRENOM</label>
+                        </div>
+                        <div class="input2 form__div">
+                            <input type="text" class="form-control" placeholder=" ">
+                            <label for="" class="form__label">NOM</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gmail">
+
+                    <div class="input3 form__div">
+                        <input type="email" class="form-control" placeholder=" ">
+                        <label for="email" class="form__label">Email</label>
+                    </div>
+
+                    <div class="input4 form__div">
+                        <input type="password" class="form-control" placeholder=" ">
+                        <label for="" class="form__label">Mot de passe</label>
+                    </div>
+
+                    <div class="input5 form__div">
+                        <input type="password" class="form-control" placeholder=" ">
+                        <label for="" class="form__label">Confirmer votre mot de passe</label>
+                    </div>
+
+                    <div class=" input6 form__div">
+                        <input type="text" class="form-control" placeholder=" ">
+                        <label for="" class="form__label">Adress</label>
+                    </div>
+                </div>
+                <div class="adress">
+                    <div class="lieu">
+
+                        <div class="input7 form__div ">
+                            <input type="text" class="form-control" placeholder=" ">
+                            <label for="" class="form__label">Lieu</label>
+                        </div>
+
+                        <div class="input8 form__div">
+                            <input type="text" class="form-control" placeholder=" ">
+                            <label for="" class="form__label">Etat</label>
+                        </div>
+
+                        <div class="input9 form__div">
+                            <input class="form-control" list="browsers" placeholder=" ">
+                            <label for="" class="form__label">Ville</label>
+
+                            <datalist id="browsers">
+                                <option value="Maroc">
+                                <option value="France">
+                                <option value="Espane">
+                                <option value="Canada">
+                                <option value="Holanda">
+                            </datalist>
+                        </div>
+                    </div>
+                    <input class="form-check-input" type="checkbox">
+                    <div class="ecriture">
+                        <label for="chec"> accepter nos conditions <a href="">politique de
+                                confidentialite</a></label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="p-3">
+                            <div class="card-body border p-0">
+                                <div class="collapse show p-3 pt-0" id="collapseExample">
+                                    <div class="row">
+                                        <div class="col-lg-4 mb-lg-0 mb-3">
+                                            <p class="h4 mb-0">PAYEMENT</p>
+                                            <p class="mb-0"><span class="fw-bold">Produit:</span><span class="t-vert">
+                                                    Canapé</span>
+                                            </p>
+                                            <p class="mb-0">
+                                                <span class="fw-bold">Prix:</span>
+                                                <span class="t-vert">1200MAD</span>
+                                            </p> 
+                                        </div>
+                                        <div class="col-lg-7">
+                                            <form action="" class="form">
+                                                <div class="row was-validated">
+                                                    <div class="col-12">
+                                                        <div class="form__div">
+                                                            <input type="text" class="form-control" placeholder=" " required>
+                                                            <label for="" class="form__label">numéro de la carte</label>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-6">
+                                                        <div class="form__div">
+                                                            <input type="text" class="form-control" placeholder=" " required>
+                                                            <label for="" class="form__label">MM / yy</label>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-6">
+                                                        <div class="form__div">
+                                                            <input type="password" class="form-control" placeholder=" " required>
+                                                            <label for="" class="form__label">cvv code</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="form__div">
+                                                            <input type="text" class="form-control" placeholder=" " required>
+                                                            <label for="" class="form__label">votre nom</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="btn btn-primary w-100"><a href="./merci_page.html" style="color: #000;">Sumbit</a></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <div class="footer-dark">
+        <footer>
+            <div class="container d-flex">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#acceuil" onclick="toggleMenu();">Acceuil</a></li>
+                            <li><a href="./pp.html">Produits</a></li>
+                            <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">A propos de nous</a></li>
+                            <li><a href="#">Equipe</a></li>
+                            <li><a href="#">Cart</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Deco House</h3>
+                        <p style="color: #f0f9ff;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Laboriosam
+                            temporibus repellendus possimus autem odio, inventore ab labore accusantium placeat,
+                            itaque
+                            eaque numquam dolores consequatur recusandae iure, voluptate accusamus aliquam aperiam!
+                        </p>
+                    </div>
+                    <div class="col item social">
+                        <a href="#"><i class="lab la-facebook"></i></a>
+                        <a href="#"><i class="lab la-twitter"></i></a>
+                        <a href="#"><i class="lab la-snapchat"></i></a>
+                        <a href="#"><i class="lab la-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </footer>
+    </div>
+    
+    <script src="./app.js"></script>
+    <script src="./bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

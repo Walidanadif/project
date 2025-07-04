@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+p {
+    font-weight: 300;
+    color: #111;
+}
+
+body{
+    background:#eee
+}
+
+.ratings i{
+    font-size: 16px;color: red
+}
+.strike-text{
+    color: red;text-decoration: line-through
+}
+.product-image{
+    width: 100%
+}
+.dot{
+    height: 7px;
+    width: 7px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 3px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block
+}
+.spec-1{
+    color: #938787;font-size: 15px
+}
+h5{
+    font-weight: 400
+}
+.para{
+    font-size: 16px
+}
+
+body {
+	margin: 0; 
+	padding: 0;
+}
+.carousel{
+    height: 600px; 
+}
+.carousel .carousel-item {
+	width: 450px;
+	box-shadow: 0 0 40px #1f282a, 0 0 40px #676969, 0 0 40px #b0b2b2;
+	animation: animate 2s infinite;
+	border-radius: 15px;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+.groupe img{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.equipe1 p{
+    color: #262626;
+    font-size: 18px;
+   line-height: 1.9;
+}
+.equipe1 h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 10px;
+    color: #ce7515;
+}
+@keyframes animate {
+    to {
+      box-shadow: 0 0 50px #1f282a, 0 0 50px  #676969, 0 0 50px #b0b2b2;
+    }
+  }
